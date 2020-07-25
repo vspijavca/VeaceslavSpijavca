@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Igor Dodon",
+    "age" : 69,
+    "id": "Hriusha",
+    "credit_rating": 0.9,
+    "credit_amount": 50000000,
+    "secret": "nasty pig"
+  },
+
+  {
+    "name": "Nicolae Timofti",
+    "id": "RataMuta",
+    "age" : 69,
+    "credit_rating": 0.7,
+    "credit_amount": 1000000,
+    "secret": "nasty duck"
+
+  },
+
+  {
+    "name": "Mihai Ghimpu",
+    "id": "Psih",
+    "age" : 69,
+    "credit_amount": 900000,
+    "credit_rating": 0.5,
+    "secret": "crazy boy"
+
+  }
+]

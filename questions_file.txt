@@ -1,0 +1,118 @@
+Id: A1
+Question: What is the full pip command to list the local packages that are installed on your machine. Write only the command
+Points: 0.5
+Answer to A1: pip show
+
+Id: A23
+Question: What symbol can you use to comment out one line of code in Python?
+Points: 0.5
+Possible options:
+	A) *
+	B)  //
+	C) #
+	D) <<
+Answer to A23: #
+
+Id: A46
+Question: Which of the following function checks that all characters of a string are in upper case?
+Points: 0.5
+Possible options:
+	A) join(seq)
+	B) isupper()
+	C) len(string)
+	D) ljust(width[, fillchar])
+Answer to A46: B
+
+Id: A39
+Question: What is the proper way to open a file that you plan to write to?
+Points: 0.5
+Possible options:
+	A) f = open(“test.txt”,”w”)
+	B) open(“test.txt”,”write”)
+	C) f = open(“write”,”test.txt”)
+	D) f = open(“w”,”test.txt”)
+Answer to A39: A
+
+Id: A24
+Question: How do you create a variable “a” that is equal to 2?
+Points: 0.5
+Possible options:
+	A) var a = 2
+	B) int a = 2
+	C) a = 2
+	D) variable a = 2
+Answer to A24: C
+
+Id: A7
+Question: You have the following functions that takes a string as argument
+def func(x):
+	return ''.join(x)
+How will you translate the following function to an anonymous function?
+Points: 0.5
+Answer to A7: lambda x : ''.join(x)
+
+Id: A14
+Question: Asses if the following statement is true or false: We can use the “else” clause for the 'for' statements
+Points: 0.5
+Possible options:
+	A) True
+	B) False
+Answer to A14: True
+
+Id: A41
+Question: You have the following:
+, def f():
+	return None
+
+What is the type of variable f?
+Points: 0.5
+Possible options:
+	A) <type 'function'>
+	B) <type 'type'>
+	C) <type 'NoneType'>
+Answer to A41: A
+
+Id: A44
+Question: You have the following code:
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+What does the below code intended to do?
+Points: 0.5
+Possible options:
+	A) defines a non-empty list.
+	B) defines a tuple of elements
+	C) defines a set of elements
+	D) defines a list with objects and assign it to variable 'colors'
+Answer to A44: D
+
+Id: A8
+Question: Consider the following code:
+Class SomeClass:
+	pass
+'
+Can we consider this a class object (1 -> stands for answer yes, 0 -> stands for no)?
+Points: 0.5
+Answer to A8: 0
+
+Id: B7
+Question: Use the func.py file. Create a function named 'majority_vote' that returns the majority vote from a list that is passed to your function. A majority vote is an element that occurs > N/2 times in a list (where N is the length of the list). Conditions:
+The frequency of the majority element must be strictly greater than 1/2.
+If there is no majority element, return None.
+If the list is empty, return None.
+Examples:
+majority_vote(["A", "A", "A", "B", "C", "A"]) ➞ "A"
+majority_vote(["A", "B", "B", "A", "C", "C"]) ➞ None
+Points: 1.5
+Id: B6
+Question: Use the func.py file. Make a function in it called 'read_csv_2'.
+This should be a generator function that receives one default argument -> the csv file from '../Resources/data1.csv' and generates at each iteration the surname (string type) of students that:
+ 1. have valid birth year and
+ 2. their birth year is equal or bigger than 2000.
+Points: 1.5
+Id: C4
+Question: Use the class.py file to test your solution. In the class script there are 3 imports (json, Bank, Client).
+ The Client class is defined and documented in the source_code/client.py module. This class is responsible for describing a bank client (see its methods and object attributes). When we instantiate the objects of this class we use the data from location data/clients.json (a list of dictionaries where each dictionary is data for a single client).
+ The Bank class is described in the source_code/Bank.py module. This class is called with the path to the data/clients.json file and is instantiating the client objects in a list and performing actions between the clients of a bank. 
+ You will need to define the necessary methods in the Bank class according to the documentation written in these methods and add some methods of your own, if you deem it necessary, of course.
+ Add a new method to the class Bank -> get_clients. This method receives no parameter and must be a generator function that yields at each iteretaion a Client object untill the list of clients is exausted.
+Points: 2
+
